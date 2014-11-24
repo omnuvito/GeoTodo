@@ -27,7 +27,7 @@
 			<div class="page-header">
 				<h2>Todo-AngularJS & Laravel</h2>
 			</div>
-			<!-- Modal: Ventana nueva tarea -->
+			<!-- Modal: New task window -->
 			<div class="modal fade taskForm" tabindex='-1' role='dialog' aria-labelledby='mySmallModalLabel' aria-hidden='true'>
 				<div class="modal-dialog modal-sm">
 					<div class="modal-content">
@@ -57,8 +57,8 @@
 					</div>
 				</div>
 			</div>
-			<!-- End Modal: Nueva tarea -->
-			<!-- Modal: Ventana nueva categoria -->
+			<!-- End Modal: New task -->
+			<!-- Modal: New category window -->
 			<div class="modal fade categoryForm" tabindex='-1' role='dialog' aria-labelledby='mySmallModalLabel' aria-hidden='true'>
 				<div class="modal-dialog modal-sm">
 					<div class="modal-content">
@@ -74,8 +74,8 @@
 					</div>
 				</div>
 			</div>
-			<!-- End Modal: Nueva Categoria -->
-			<!-- Modal: Informacion tarea (id) -->
+			<!-- End Modal: New category -->
+			<!-- Modal: Show task by ID -->
 			<div class="modal fade taskInformation" tabindex='-1' role='dialog' aria-labelledby='mySmallModalLabel' aria-hidden='true'>
 				<div class="modal-dialog modal-lg">
 					<div class="modal-content">
@@ -86,8 +86,8 @@
 					</div>
 				</div>
 			</div>
-			<!-- End Modal: Informacion Tarea -->
-			<!-- Task: Lista de tareas creadas -->
+			<!-- End Modal: Show task by ID -->
+			<!-- Task: Task list -->
 			<div class="page-header">
 				<h1>
 					Tareas
@@ -105,7 +105,7 @@
 					<button data-toggle="modal" data-target=".taskInformation" ng-click='showTask(task.id)' class='btn btn-info btn-md'>Mostrar informacion</button>
 				</p>
 			</div>
-			<!-- End Task -->
+			<!-- End Task List -->
 		</div>
 	</body>
 </html>
